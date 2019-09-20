@@ -42,7 +42,7 @@
 	</dependencies>
 <distributionManagement>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
     <url>http://52.66.166.26:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
