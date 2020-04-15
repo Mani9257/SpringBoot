@@ -40,25 +40,21 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<distributionManagement>
-  <snapshotRepository>
-    <id>nexus-releases</id>
-    <name>snapshots</name>
-    <url>http://18.220.34.185:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
+		
 		</plugins>
 	</build>
-
-
+	
+<distributionManagement>
+  <snapshotRepository>
+    <id>snapshotss</id>
+    <name>snapshots</name>
+    <url>http://18.220.34.185:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
